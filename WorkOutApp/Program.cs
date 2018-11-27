@@ -16,7 +16,7 @@ namespace WorkOutApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Workout_Session());
+            Application.Run(new StartingForm());
         }
     }
 }
