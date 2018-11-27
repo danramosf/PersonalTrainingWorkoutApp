@@ -39,3 +39,4 @@ Thumbs.db
 # CACHE FILES #
 ###############
 *.cache
+.vs/*
