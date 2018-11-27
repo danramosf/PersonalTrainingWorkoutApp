@@ -2,17 +2,17 @@
     
 }
 
-#divContainer {
+.divContainer {
     margin: 0 auto;
     width: 80%;
     text-align: center;
 }
 
-#divButtons {
+.divButtons {
     margin-top: 50px;
 }
 
-#imgLogo {
+.imgLogo {
     width: 150px;
 }
 

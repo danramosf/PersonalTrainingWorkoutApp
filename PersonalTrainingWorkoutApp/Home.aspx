@@ -10,11 +10,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <div id="divContainer">
-                <img alt="" src="View/img/logo.png" width="150px" id="imgLogo" />
-                <div id="divButtons">
+            <div class="divContainer">
+                <img alt="" src="View/img/logo.png" class="imgLogo" />
+                <div class="divButtons">
                     <asp:Button ID="Button1" runat="server" Text="I'm a Personal Trainer" CssClass="btnHome" />
-                    <asp:Button ID="Button2" runat="server" Text="I want to check my workouts" CssClass="btnHome" />
+                    <asp:Button ID="Button2" runat="server" Text="I just want to see my workouts" CssClass="btnHome" />
                 </div>
             </div>
             <footer>Developed by Brahiam Baron and Daniel Ferreira.</footer>
