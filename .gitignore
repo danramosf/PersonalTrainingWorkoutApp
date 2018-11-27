@@ -39,3 +39,5 @@ Thumbs.db
 # CACHE FILES #
 ###############
 *.cache
+*.vs/*
+storage.ide.*
