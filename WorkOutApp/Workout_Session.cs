@@ -29,5 +29,15 @@ namespace WorkOutApp
                 }
             
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Workout_Session_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
