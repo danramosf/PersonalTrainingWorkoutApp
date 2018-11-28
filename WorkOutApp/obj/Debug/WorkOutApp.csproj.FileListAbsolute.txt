@@ -21,3 +21,5 @@ C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\Pers
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.csproj.CoreCompileInputs.cache
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.exe
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.pdb
+C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerLoginPanel.resources
+C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerPanel.resources

@@ -40,6 +40,7 @@
             this.btnPersonalTrainer.TabIndex = 0;
             this.btnPersonalTrainer.Text = "I am a Personal Trainer";
             this.btnPersonalTrainer.UseVisualStyleBackColor = true;
+            this.btnPersonalTrainer.Click += new System.EventHandler(this.btnPersonalTrainer_Click);
             // 
             // btnUserPanel
             // 
