@@ -22,5 +22,11 @@ namespace WorkOutApp
             Workout_Session workoutSessionForm = new Workout_Session();
             workoutSessionForm.Show();
         }
+
+        private void btnPersonalTrainer_Click(object sender, EventArgs e)
+        {
+            PersonalTrainerLoginPanel ptLoginPanel = new PersonalTrainerLoginPanel();
+            ptLoginPanel.Show();
+        }
     }
 }

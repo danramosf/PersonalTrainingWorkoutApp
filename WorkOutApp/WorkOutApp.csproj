@@ -46,6 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PersonalTrainer.cs" />
+    <Compile Include="PersonalTrainerLoginPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerLoginPanel.Designer.cs">
+      <DependentUpon>PersonalTrainerLoginPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerPanel.Designer.cs">
+      <DependentUpon>PersonalTrainerPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repo\PersonalTrainerRepository.cs" />
     <Compile Include="StartingForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +85,12 @@
     <Compile Include="Workout_Session.Designer.cs">
       <DependentUpon>Workout_Session.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PersonalTrainerLoginPanel.resx">
+      <DependentUpon>PersonalTrainerLoginPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalTrainerPanel.resx">
+      <DependentUpon>PersonalTrainerPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StartingForm.resx">
       <DependentUpon>StartingForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +109,17 @@
     <EmbeddedResource Include="Workout_Session.resx">
       <DependentUpon>Workout_Session.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
