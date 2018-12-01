@@ -34,9 +34,10 @@
             // 
             // btnPersonalTrainer
             // 
-            this.btnPersonalTrainer.Location = new System.Drawing.Point(189, 174);
+            this.btnPersonalTrainer.Location = new System.Drawing.Point(284, 268);
+            this.btnPersonalTrainer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPersonalTrainer.Name = "btnPersonalTrainer";
-            this.btnPersonalTrainer.Size = new System.Drawing.Size(131, 23);
+            this.btnPersonalTrainer.Size = new System.Drawing.Size(196, 35);
             this.btnPersonalTrainer.TabIndex = 0;
             this.btnPersonalTrainer.Text = "I am a Personal Trainer";
             this.btnPersonalTrainer.UseVisualStyleBackColor = true;
@@ -44,9 +45,10 @@
             // 
             // btnUserPanel
             // 
-            this.btnUserPanel.Location = new System.Drawing.Point(401, 174);
+            this.btnUserPanel.Location = new System.Drawing.Point(602, 268);
+            this.btnUserPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnUserPanel.Name = "btnUserPanel";
-            this.btnUserPanel.Size = new System.Drawing.Size(166, 23);
+            this.btnUserPanel.Size = new System.Drawing.Size(249, 35);
             this.btnUserPanel.TabIndex = 1;
             this.btnUserPanel.Text = "I want to see my Workouts";
             this.btnUserPanel.UseVisualStyleBackColor = true;
@@ -54,11 +56,13 @@
             // 
             // StartingForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::WorkOutApp.Properties.Resources.front_page;
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.btnUserPanel);
             this.Controls.Add(this.btnPersonalTrainer);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "StartingForm";
             this.Text = "StartingForm";
             this.ResumeLayout(false);

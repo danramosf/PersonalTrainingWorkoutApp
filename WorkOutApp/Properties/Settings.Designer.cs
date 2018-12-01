@@ -45,5 +45,16 @@ namespace WorkOutApp.Properties {
                 this["p_trainer_loggedIn"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-VIUOU4F\\NEW;Initial Catalog=workoutApp;Integrated Security=Tr" +
+            "ue")]
+        public string workoutAppConnectionString1 {
+            get {
+                return ((string)(this["workoutAppConnectionString1"]));
+            }
+        }
     }
 }

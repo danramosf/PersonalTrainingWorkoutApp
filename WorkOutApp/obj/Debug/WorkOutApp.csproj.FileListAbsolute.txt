@@ -23,3 +23,17 @@ C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\Pers
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.pdb
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerLoginPanel.resources
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerPanel.resources
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\bin\Debug\WorkOutApp.exe.config
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\bin\Debug\WorkOutApp.exe
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\bin\Debug\WorkOutApp.pdb
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerLoginPanel.resources
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerPanel.resources
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.StartingForm.resources
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.StartWorkOut.resources
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.Properties.Resources.resources
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.Workout_Session.resources
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.exe
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.pdb
+C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.csprojAssemblyReference.cache

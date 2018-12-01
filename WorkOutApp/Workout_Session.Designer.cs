@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -42,23 +41,16 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.buttonStyle1 = new WorkOutApp.css.ButtonStyle();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(517, 124);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(155, 76);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 159);
+            this.label1.Location = new System.Drawing.Point(137, 174);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 20);
             this.label1.TabIndex = 1;
@@ -67,7 +59,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(178, 165);
+            this.label2.Location = new System.Drawing.Point(313, 171);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 20);
             this.label2.TabIndex = 1;
@@ -76,7 +68,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(318, 162);
+            this.label3.Location = new System.Drawing.Point(493, 168);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 20);
             this.label3.TabIndex = 2;
@@ -84,7 +76,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(88, 173);
+            this.textBox1.Location = new System.Drawing.Point(211, 168);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(61, 26);
             this.textBox1.TabIndex = 3;
@@ -100,25 +92,23 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(235, 174);
+            this.textBox2.Location = new System.Drawing.Point(397, 168);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(61, 26);
             this.textBox2.TabIndex = 3;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(375, 174);
+            this.textBox3.Location = new System.Drawing.Point(582, 165);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(61, 26);
+            this.textBox3.Size = new System.Drawing.Size(170, 26);
             this.textBox3.TabIndex = 3;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(88, 229);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(536, 209);
+            this.pictureBox1.Size = new System.Drawing.Size(775, 389);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
@@ -161,17 +151,52 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(493, 41);
+            this.label9.Location = new System.Drawing.Point(741, 41);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(51, 20);
             this.label9.TabIndex = 5;
-            this.label9.Text = "label7";
+            this.label9.Text = "lable9";
+            // 
+            // buttonStyle1
+            // 
+            this.buttonStyle1.BackColor = System.Drawing.Color.Crimson;
+            this.buttonStyle1.BackgroundImage = global::WorkOutApp.Properties.Resources.buttonBack;
+            this.buttonStyle1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonStyle1.Image = global::WorkOutApp.Properties.Resources.thumb_Up;
+            this.buttonStyle1.Location = new System.Drawing.Point(903, 259);
+            this.buttonStyle1.Name = "buttonStyle1";
+            this.buttonStyle1.Size = new System.Drawing.Size(220, 251);
+            this.buttonStyle1.TabIndex = 6;
+            this.buttonStyle1.Text = "buttonStyle1";
+            this.buttonStyle1.UseVisualStyleBackColor = false;
+            this.buttonStyle1.Click += new System.EventHandler(this.buttonStyle1_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(606, 41);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(115, 20);
+            this.label10.TabIndex = 2;
+            this.label10.Text = "Exercice Name";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(502, 41);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(51, 20);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "label7";
             // 
             // Workout_Session
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::WorkOutApp.Properties.Resources.AppBackground;
+            this.ClientSize = new System.Drawing.Size(1176, 630);
+            this.Controls.Add(this.buttonStyle1);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -179,16 +204,16 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
             this.Name = "Workout_Session";
             this.Text = "Workout_Session";
-            this.Load += new System.EventHandler(this.Workout_Session_Load);
+            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -196,8 +221,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -211,5 +234,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private css.ButtonStyle buttonStyle1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
     }
 }

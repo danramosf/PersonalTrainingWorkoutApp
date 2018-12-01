@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="css\ButtonStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -105,6 +111,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Workout_Session.resx">
       <DependentUpon>Workout_Session.cs</DependentUpon>
@@ -135,6 +142,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\main.css" />
+    <None Include="Images\front_page.jpg" />
+    <None Include="Images\buttonBack.jpg" />
+    <None Include="Images\thumb_Up.png" />
+    <None Include="Images\AppBackground.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
