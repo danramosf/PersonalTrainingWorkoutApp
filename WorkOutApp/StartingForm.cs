@@ -19,8 +19,8 @@ namespace WorkOutApp
 
         private void btnUserPanel_Click(object sender, EventArgs e)
         {
-            Workout_Session workoutSessionForm = new Workout_Session();
-            workoutSessionForm.Show();
+            UserLogin logUser = new UserLogin();
+            logUser.Show();
         }
 
         private void btnPersonalTrainer_Click(object sender, EventArgs e)

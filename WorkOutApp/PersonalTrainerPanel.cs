@@ -28,5 +28,9 @@ namespace WorkOutApp
             MessageBox.Show(ptrainer.ToString());
         }
 
+        private void lblWelcome_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

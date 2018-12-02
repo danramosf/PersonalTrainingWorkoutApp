@@ -41,6 +41,7 @@
             this.lblWelcome.Size = new System.Drawing.Size(90, 13);
             this.lblWelcome.TabIndex = 0;
             this.lblWelcome.Text = "Welcome, <user>";
+            this.lblWelcome.Click += new System.EventHandler(this.lblWelcome_Click);
             // 
             // pbPersonalTrainerProfilePic
             // 

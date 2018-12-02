@@ -36,16 +36,16 @@ namespace WorkOutApp
             //Selecting all Personal Trainers from the dataset
             DataRow[] d = ds.PersonalTrainer.Select();
             String strPTrainer;
-            foreach(DataRow dr in d)
+            foreach (DataRow dr in d)
             {
-                strPTrainer = dr["trainer_id"].ToString() + ":  " +  dr["name"].ToString();
+                strPTrainer = dr["trainer_id"].ToString() + ":  " + dr["name"].ToString();
                 cmbPersonalTrainerAccount.Items.Add(strPTrainer);
             }
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(cmbPersonalTrainerAccount.SelectedItem == null || (string)cmbPersonalTrainerAccount.SelectedItem == "")
+            if (cmbPersonalTrainerAccount.SelectedItem == null || (string)cmbPersonalTrainerAccount.SelectedItem == "")
             {
                 errorProvider1.SetError(cmbPersonalTrainerAccount, "Please, select a Personal Trainer account.");
             }
@@ -66,11 +66,14 @@ namespace WorkOutApp
                 string[] parts = str.Split(':');
                 return int.Parse(parts[0]);
 
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
                 return -1;
             }
         }
     }
+
+
 }

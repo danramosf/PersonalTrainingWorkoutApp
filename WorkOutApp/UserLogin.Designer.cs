@@ -1,6 +1,6 @@
 ﻿namespace WorkOutApp
 {
-    partial class PersonalTrainerLoginPanel
+    partial class UserLogin
     {
         /// <summary>
         /// Required designer variable.
