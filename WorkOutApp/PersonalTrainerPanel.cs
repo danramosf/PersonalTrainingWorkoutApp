@@ -67,6 +67,9 @@ namespace WorkOutApp
         private void picMngUsers_Click(object sender, EventArgs e)
         {
             //Manage Users
+            PersonalTrainerManageUsers ptManageUsers = new PersonalTrainerManageUsers();
+            ptManageUsers.Show();
+            this.Close();
         }
 
         private void lblWelcome_Click(object sender, EventArgs e)

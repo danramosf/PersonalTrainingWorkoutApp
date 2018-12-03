@@ -58,6 +58,12 @@
     <Compile Include="PersonalTrainerAddExercise.Designer.cs">
       <DependentUpon>PersonalTrainerAddExercise.cs</DependentUpon>
     </Compile>
+    <Compile Include="PersonalTrainerAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerAddUser.Designer.cs">
+      <DependentUpon>PersonalTrainerAddUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="PersonalTrainerEditProfile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="PersonalTrainerManageExercises.Designer.cs">
       <DependentUpon>PersonalTrainerManageExercises.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerManageUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerManageUsers.Designer.cs">
+      <DependentUpon>PersonalTrainerManageUsers.cs</DependentUpon>
     </Compile>
     <Compile Include="PersonalTrainerPanel.cs">
       <SubType>Form</SubType>
@@ -106,6 +118,9 @@
     <EmbeddedResource Include="PersonalTrainerAddExercise.resx">
       <DependentUpon>PersonalTrainerAddExercise.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PersonalTrainerAddUser.resx">
+      <DependentUpon>PersonalTrainerAddUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PersonalTrainerEditProfile.resx">
       <DependentUpon>PersonalTrainerEditProfile.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PersonalTrainerManageExercises.resx">
       <DependentUpon>PersonalTrainerManageExercises.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalTrainerManageUsers.resx">
+      <DependentUpon>PersonalTrainerManageUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PersonalTrainerPanel.resx">
       <DependentUpon>PersonalTrainerPanel.cs</DependentUpon>

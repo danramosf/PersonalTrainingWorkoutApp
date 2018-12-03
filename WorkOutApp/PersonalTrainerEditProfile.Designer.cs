@@ -28,24 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblProfile = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblMainMenu = new System.Windows.Forms.Label();
             this.pbPersonalTrainerProfilePic = new System.Windows.Forms.PictureBox();
             this.lblAccount = new System.Windows.Forms.Label();
-            this.lblMainMenu = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.picProfileImg = new System.Windows.Forms.PictureBox();
-            this.lblProfileName = new System.Windows.Forms.Label();
-            this.lblProfileAddress = new System.Windows.Forms.Label();
-            this.lblProfileEmail = new System.Windows.Forms.Label();
-            this.txtProfileName = new System.Windows.Forms.TextBox();
-            this.txtProfileAddress = new System.Windows.Forms.TextBox();
-            this.txtProfileEmail = new System.Windows.Forms.TextBox();
             this.btnSaveProfile = new System.Windows.Forms.Button();
+            this.txtProfileEmail = new System.Windows.Forms.TextBox();
+            this.txtProfileAddress = new System.Windows.Forms.TextBox();
+            this.txtProfileName = new System.Windows.Forms.TextBox();
+            this.lblProfileEmail = new System.Windows.Forms.Label();
+            this.lblProfileAddress = new System.Windows.Forms.Label();
+            this.lblProfileName = new System.Windows.Forms.Label();
+            this.picProfileImg = new System.Windows.Forms.PictureBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbPersonalTrainerProfilePic)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picProfileImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblProfile
@@ -70,6 +73,18 @@
             this.panel2.Size = new System.Drawing.Size(508, 61);
             this.panel2.TabIndex = 6;
             // 
+            // lblMainMenu
+            // 
+            this.lblMainMenu.AutoSize = true;
+            this.lblMainMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMainMenu.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lblMainMenu.Location = new System.Drawing.Point(23, 24);
+            this.lblMainMenu.Name = "lblMainMenu";
+            this.lblMainMenu.Size = new System.Drawing.Size(80, 13);
+            this.lblMainMenu.TabIndex = 3;
+            this.lblMainMenu.Text = "< Main Menu";
+            this.lblMainMenu.Click += new System.EventHandler(this.lblMainMenu_Click);
+            // 
             // pbPersonalTrainerProfilePic
             // 
             this.pbPersonalTrainerProfilePic.Location = new System.Drawing.Point(414, 5);
@@ -88,18 +103,6 @@
             this.lblAccount.TabIndex = 2;
             this.lblAccount.Text = "Edit Account";
             // 
-            // lblMainMenu
-            // 
-            this.lblMainMenu.AutoSize = true;
-            this.lblMainMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMainMenu.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblMainMenu.Location = new System.Drawing.Point(23, 24);
-            this.lblMainMenu.Name = "lblMainMenu";
-            this.lblMainMenu.Size = new System.Drawing.Size(80, 13);
-            this.lblMainMenu.TabIndex = 3;
-            this.lblMainMenu.Text = "< Main Menu";
-            this.lblMainMenu.Click += new System.EventHandler(this.lblMainMenu_Click);
-            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.btnSaveProfile);
@@ -115,31 +118,36 @@
             this.panel1.Size = new System.Drawing.Size(508, 323);
             this.panel1.TabIndex = 7;
             // 
-            // picProfileImg
+            // btnSaveProfile
             // 
-            this.picProfileImg.Location = new System.Drawing.Point(26, 24);
-            this.picProfileImg.Name = "picProfileImg";
-            this.picProfileImg.Size = new System.Drawing.Size(200, 200);
-            this.picProfileImg.TabIndex = 4;
-            this.picProfileImg.TabStop = false;
+            this.btnSaveProfile.Location = new System.Drawing.Point(318, 275);
+            this.btnSaveProfile.Name = "btnSaveProfile";
+            this.btnSaveProfile.Size = new System.Drawing.Size(180, 23);
+            this.btnSaveProfile.TabIndex = 11;
+            this.btnSaveProfile.Text = "Save";
+            this.btnSaveProfile.UseVisualStyleBackColor = true;
+            this.btnSaveProfile.Click += new System.EventHandler(this.btnSaveProfile_Click);
             // 
-            // lblProfileName
+            // txtProfileEmail
             // 
-            this.lblProfileName.AutoSize = true;
-            this.lblProfileName.Location = new System.Drawing.Point(255, 48);
-            this.lblProfileName.Name = "lblProfileName";
-            this.lblProfileName.Size = new System.Drawing.Size(35, 13);
-            this.lblProfileName.TabIndex = 5;
-            this.lblProfileName.Text = "Name";
+            this.txtProfileEmail.Location = new System.Drawing.Point(318, 176);
+            this.txtProfileEmail.Name = "txtProfileEmail";
+            this.txtProfileEmail.Size = new System.Drawing.Size(180, 20);
+            this.txtProfileEmail.TabIndex = 10;
             // 
-            // lblProfileAddress
+            // txtProfileAddress
             // 
-            this.lblProfileAddress.AutoSize = true;
-            this.lblProfileAddress.Location = new System.Drawing.Point(255, 111);
-            this.lblProfileAddress.Name = "lblProfileAddress";
-            this.lblProfileAddress.Size = new System.Drawing.Size(45, 13);
-            this.lblProfileAddress.TabIndex = 6;
-            this.lblProfileAddress.Text = "Address";
+            this.txtProfileAddress.Location = new System.Drawing.Point(318, 108);
+            this.txtProfileAddress.Name = "txtProfileAddress";
+            this.txtProfileAddress.Size = new System.Drawing.Size(180, 20);
+            this.txtProfileAddress.TabIndex = 9;
+            // 
+            // txtProfileName
+            // 
+            this.txtProfileName.Location = new System.Drawing.Point(318, 45);
+            this.txtProfileName.Name = "txtProfileName";
+            this.txtProfileName.Size = new System.Drawing.Size(180, 20);
+            this.txtProfileName.TabIndex = 8;
             // 
             // lblProfileEmail
             // 
@@ -150,35 +158,35 @@
             this.lblProfileEmail.TabIndex = 7;
             this.lblProfileEmail.Text = "Email";
             // 
-            // txtProfileName
+            // lblProfileAddress
             // 
-            this.txtProfileName.Location = new System.Drawing.Point(318, 45);
-            this.txtProfileName.Name = "txtProfileName";
-            this.txtProfileName.Size = new System.Drawing.Size(180, 20);
-            this.txtProfileName.TabIndex = 8;
+            this.lblProfileAddress.AutoSize = true;
+            this.lblProfileAddress.Location = new System.Drawing.Point(255, 111);
+            this.lblProfileAddress.Name = "lblProfileAddress";
+            this.lblProfileAddress.Size = new System.Drawing.Size(45, 13);
+            this.lblProfileAddress.TabIndex = 6;
+            this.lblProfileAddress.Text = "Address";
             // 
-            // txtProfileAddress
+            // lblProfileName
             // 
-            this.txtProfileAddress.Location = new System.Drawing.Point(318, 108);
-            this.txtProfileAddress.Name = "txtProfileAddress";
-            this.txtProfileAddress.Size = new System.Drawing.Size(180, 20);
-            this.txtProfileAddress.TabIndex = 9;
+            this.lblProfileName.AutoSize = true;
+            this.lblProfileName.Location = new System.Drawing.Point(255, 48);
+            this.lblProfileName.Name = "lblProfileName";
+            this.lblProfileName.Size = new System.Drawing.Size(35, 13);
+            this.lblProfileName.TabIndex = 5;
+            this.lblProfileName.Text = "Name";
             // 
-            // txtProfileEmail
+            // picProfileImg
             // 
-            this.txtProfileEmail.Location = new System.Drawing.Point(318, 176);
-            this.txtProfileEmail.Name = "txtProfileEmail";
-            this.txtProfileEmail.Size = new System.Drawing.Size(180, 20);
-            this.txtProfileEmail.TabIndex = 10;
+            this.picProfileImg.Location = new System.Drawing.Point(26, 24);
+            this.picProfileImg.Name = "picProfileImg";
+            this.picProfileImg.Size = new System.Drawing.Size(200, 200);
+            this.picProfileImg.TabIndex = 4;
+            this.picProfileImg.TabStop = false;
             // 
-            // btnSaveProfile
+            // errorProvider1
             // 
-            this.btnSaveProfile.Location = new System.Drawing.Point(318, 275);
-            this.btnSaveProfile.Name = "btnSaveProfile";
-            this.btnSaveProfile.Size = new System.Drawing.Size(180, 23);
-            this.btnSaveProfile.TabIndex = 11;
-            this.btnSaveProfile.Text = "Save";
-            this.btnSaveProfile.UseVisualStyleBackColor = true;
+            this.errorProvider1.ContainerControl = this;
             // 
             // PersonalTrainerEditProfile
             // 
@@ -196,6 +204,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picProfileImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -216,5 +225,6 @@
         private System.Windows.Forms.Label lblProfileEmail;
         private System.Windows.Forms.Label lblProfileAddress;
         private System.Windows.Forms.Label lblProfileName;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
