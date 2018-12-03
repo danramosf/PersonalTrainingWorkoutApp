@@ -9,7 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using WorkOutApp.Repo;
+using WorkOutApp.Model;
 
 namespace WorkOutApp
 {
@@ -36,13 +37,16 @@ namespace WorkOutApp
 
         private void buttonStyle1_Click(object sender, EventArgs e)
         {
+
+            userRepo1 repo = new userRepo1();
+            user1 userName = repo.GetUserName(Properties.Settings.Default.User);
             data = new DataSet1();
             pT = new performanceTableAdapter();
             pT.Fill(data.performance);
             DataSet1.performanceRow pr = data.performance.NewperformanceRow();
           DateTime today = DateTime.Today ;
             
-            pr.user_name = "rest";
+            pr.user_name = userName.FirstName;
             pr.sets = int.Parse(textBox1.Text);
             pr.reps = int.Parse(textBox2.Text);
             pr.weight = int.Parse(textBox3.Text);

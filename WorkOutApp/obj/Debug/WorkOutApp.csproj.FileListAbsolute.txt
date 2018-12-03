@@ -51,4 +51,3 @@ C:\Users\brahi\Desktop\workout app\WorkOutApp\obj\Debug\WorkOutApp.pdb
 C:\Users\brahi\Desktop\workout app\WorkOutApp\bin\Debug\WorkOutApp.exe.config
 C:\Users\brahi\Desktop\workout app\WorkOutApp\bin\Debug\WorkOutApp.exe
 C:\Users\brahi\Desktop\workout app\WorkOutApp\bin\Debug\WorkOutApp.pdb
-C:\Users\brahi\Desktop\workout app\WorkOutApp\obj\Debug\WorkOutApp.UserLogin.resources

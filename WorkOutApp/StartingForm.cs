@@ -19,7 +19,7 @@ namespace WorkOutApp
 
         private void btnUserPanel_Click(object sender, EventArgs e)
         {
-            UserLogin logUser = new UserLogin();
+            userLogin1 logUser = new userLogin1();
             logUser.Show();
         }
 
