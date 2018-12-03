@@ -33,31 +33,33 @@
             this.lblAccount = new System.Windows.Forms.Label();
             this.picMngUsers = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblMngUsers = new System.Windows.Forms.Label();
-            this.picMngExercises = new System.Windows.Forms.PictureBox();
-            this.lblMngExercises = new System.Windows.Forms.Label();
-            this.lblMngDefault = new System.Windows.Forms.Label();
-            this.picMngDefault = new System.Windows.Forms.PictureBox();
             this.lblLogout = new System.Windows.Forms.Label();
             this.picLogout = new System.Windows.Forms.PictureBox();
+            this.lblMngDefault = new System.Windows.Forms.Label();
+            this.picMngDefault = new System.Windows.Forms.PictureBox();
+            this.lblMngExercises = new System.Windows.Forms.Label();
+            this.picMngExercises = new System.Windows.Forms.PictureBox();
+            this.lblMngUsers = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pbPersonalTrainerProfilePic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMngUsers)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picMngExercises)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picMngDefault)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogout)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMngDefault)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMngExercises)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblWelcome
             // 
             this.lblWelcome.AutoSize = true;
+            this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.Location = new System.Drawing.Point(22, 24);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(90, 13);
+            this.lblWelcome.Size = new System.Drawing.Size(105, 13);
             this.lblWelcome.TabIndex = 0;
             this.lblWelcome.Text = "Welcome, <user>";
+            this.lblWelcome.Click += new System.EventHandler(this.lblWelcome_Click);
             // 
             // pbPersonalTrainerProfilePic
             // 
@@ -66,6 +68,7 @@
             this.pbPersonalTrainerProfilePic.Size = new System.Drawing.Size(41, 34);
             this.pbPersonalTrainerProfilePic.TabIndex = 1;
             this.pbPersonalTrainerProfilePic.TabStop = false;
+            this.pbPersonalTrainerProfilePic.Click += new System.EventHandler(this.pbPersonalTrainerProfilePic_Click);
             // 
             // lblAccount
             // 
@@ -83,6 +86,7 @@
             this.picMngUsers.Size = new System.Drawing.Size(159, 128);
             this.picMngUsers.TabIndex = 3;
             this.picMngUsers.TabStop = false;
+            this.picMngUsers.Click += new System.EventHandler(this.picMngUsers_Click);
             // 
             // panel1
             // 
@@ -100,31 +104,23 @@
             this.panel1.TabIndex = 4;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // lblMngUsers
+            // lblLogout
             // 
-            this.lblMngUsers.AutoSize = true;
-            this.lblMngUsers.Location = new System.Drawing.Point(38, 153);
-            this.lblMngUsers.Name = "lblMngUsers";
-            this.lblMngUsers.Size = new System.Drawing.Size(76, 13);
-            this.lblMngUsers.TabIndex = 4;
-            this.lblMngUsers.Text = "Manage Users";
+            this.lblLogout.AutoSize = true;
+            this.lblLogout.Location = new System.Drawing.Point(267, 318);
+            this.lblLogout.Name = "lblLogout";
+            this.lblLogout.Size = new System.Drawing.Size(40, 13);
+            this.lblLogout.TabIndex = 10;
+            this.lblLogout.Text = "Logout";
             // 
-            // picMngExercises
+            // picLogout
             // 
-            this.picMngExercises.Location = new System.Drawing.Point(261, 13);
-            this.picMngExercises.Name = "picMngExercises";
-            this.picMngExercises.Size = new System.Drawing.Size(159, 128);
-            this.picMngExercises.TabIndex = 5;
-            this.picMngExercises.TabStop = false;
-            // 
-            // lblMngExercises
-            // 
-            this.lblMngExercises.AutoSize = true;
-            this.lblMngExercises.Location = new System.Drawing.Point(268, 153);
-            this.lblMngExercises.Name = "lblMngExercises";
-            this.lblMngExercises.Size = new System.Drawing.Size(94, 13);
-            this.lblMngExercises.TabIndex = 6;
-            this.lblMngExercises.Text = "Manage Exercises";
+            this.picLogout.Location = new System.Drawing.Point(261, 178);
+            this.picLogout.Name = "picLogout";
+            this.picLogout.Size = new System.Drawing.Size(159, 128);
+            this.picLogout.TabIndex = 9;
+            this.picLogout.TabStop = false;
+            this.picLogout.Click += new System.EventHandler(this.picLogout_Click);
             // 
             // lblMngDefault
             // 
@@ -144,25 +140,36 @@
             this.picMngDefault.TabIndex = 7;
             this.picMngDefault.TabStop = false;
             // 
-            // lblLogout
+            // lblMngExercises
             // 
-            this.lblLogout.AutoSize = true;
-            this.lblLogout.Location = new System.Drawing.Point(267, 318);
-            this.lblLogout.Name = "lblLogout";
-            this.lblLogout.Size = new System.Drawing.Size(40, 13);
-            this.lblLogout.TabIndex = 10;
-            this.lblLogout.Text = "Logout";
+            this.lblMngExercises.AutoSize = true;
+            this.lblMngExercises.Location = new System.Drawing.Point(268, 153);
+            this.lblMngExercises.Name = "lblMngExercises";
+            this.lblMngExercises.Size = new System.Drawing.Size(94, 13);
+            this.lblMngExercises.TabIndex = 6;
+            this.lblMngExercises.Text = "Manage Exercises";
             // 
-            // picLogout
+            // picMngExercises
             // 
-            this.picLogout.Location = new System.Drawing.Point(261, 178);
-            this.picLogout.Name = "picLogout";
-            this.picLogout.Size = new System.Drawing.Size(159, 128);
-            this.picLogout.TabIndex = 9;
-            this.picLogout.TabStop = false;
+            this.picMngExercises.Location = new System.Drawing.Point(261, 13);
+            this.picMngExercises.Name = "picMngExercises";
+            this.picMngExercises.Size = new System.Drawing.Size(159, 128);
+            this.picMngExercises.TabIndex = 5;
+            this.picMngExercises.TabStop = false;
+            this.picMngExercises.Click += new System.EventHandler(this.picMngExercises_Click);
+            // 
+            // lblMngUsers
+            // 
+            this.lblMngUsers.AutoSize = true;
+            this.lblMngUsers.Location = new System.Drawing.Point(38, 153);
+            this.lblMngUsers.Name = "lblMngUsers";
+            this.lblMngUsers.Size = new System.Drawing.Size(76, 13);
+            this.lblMngUsers.TabIndex = 4;
+            this.lblMngUsers.Text = "Manage Users";
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel2.Controls.Add(this.pbPersonalTrainerProfilePic);
             this.panel2.Controls.Add(this.lblAccount);
             this.panel2.Controls.Add(this.lblWelcome);
@@ -185,9 +192,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.picMngUsers)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picMngExercises)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picMngDefault)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogout)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMngDefault)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMngExercises)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);

@@ -52,11 +52,29 @@
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Model\PersonalTrainer.cs" />
+    <Compile Include="PersonalTrainerAddExercise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerAddExercise.Designer.cs">
+      <DependentUpon>PersonalTrainerAddExercise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerEditProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerEditProfile.Designer.cs">
+      <DependentUpon>PersonalTrainerEditProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="PersonalTrainerLoginPanel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PersonalTrainerLoginPanel.Designer.cs">
       <DependentUpon>PersonalTrainerLoginPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerManageExercises.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerManageExercises.Designer.cs">
+      <DependentUpon>PersonalTrainerManageExercises.cs</DependentUpon>
     </Compile>
     <Compile Include="PersonalTrainerPanel.cs">
       <SubType>Form</SubType>
@@ -85,8 +103,17 @@
     <Compile Include="Workout_Session.Designer.cs">
       <DependentUpon>Workout_Session.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PersonalTrainerAddExercise.resx">
+      <DependentUpon>PersonalTrainerAddExercise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalTrainerEditProfile.resx">
+      <DependentUpon>PersonalTrainerEditProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PersonalTrainerLoginPanel.resx">
       <DependentUpon>PersonalTrainerLoginPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalTrainerManageExercises.resx">
+      <DependentUpon>PersonalTrainerManageExercises.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PersonalTrainerPanel.resx">
       <DependentUpon>PersonalTrainerPanel.cs</DependentUpon>
@@ -135,6 +162,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\main.css" />
+    <Content Include="img\exercises-icon.png" />
+    <Content Include="img\ex_barbell_row.jpg" />
+    <Content Include="img\ex_complete.jpg" />
+    <Content Include="img\ex_decline_chest_press.jpg" />
+    <Content Include="img\ex_dumbbell_curls.jpg" />
+    <Content Include="img\ex_dumbbell_rows.jpg" />
+    <Content Include="img\ex_incline_chest_press.jpg" />
+    <Content Include="img\ex_incline_dumbbell_flyes.jpg" />
+    <Content Include="img\ex_jogging.jpg" />
+    <Content Include="img\ex_performance.jpg" />
+    <Content Include="img\ex_plank.jpg" />
+    <Content Include="img\ex_pushups.jpg" />
+    <Content Include="img\ex_walking.jpg" />
+    <Content Include="img\john_d_profile.jpg" />
+    <Content Include="img\logout-icon.png" />
+    <Content Include="img\users-icon.png" />
+    <Content Include="img\workouts-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

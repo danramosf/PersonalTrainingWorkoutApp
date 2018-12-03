@@ -23,3 +23,6 @@ C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\Pers
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.pdb
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerLoginPanel.resources
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerPanel.resources
+C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerEditProfile.resources
+C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerManageExercises.resources
+C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerAddExercise.resources
