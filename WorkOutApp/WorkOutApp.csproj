@@ -59,11 +59,41 @@
     </Compile>
     <Compile Include="Model\user1.cs" />
     <Compile Include="Model\PersonalTrainer.cs" />
+    <Compile Include="PersonalTrainerAddExercise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerAddExercise.Designer.cs">
+      <DependentUpon>PersonalTrainerAddExercise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerAddUser.Designer.cs">
+      <DependentUpon>PersonalTrainerAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerEditProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerEditProfile.Designer.cs">
+      <DependentUpon>PersonalTrainerEditProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="PersonalTrainerLoginPanel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PersonalTrainerLoginPanel.Designer.cs">
       <DependentUpon>PersonalTrainerLoginPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerManageExercises.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerManageExercises.Designer.cs">
+      <DependentUpon>PersonalTrainerManageExercises.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalTrainerManageUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalTrainerManageUsers.Designer.cs">
+      <DependentUpon>PersonalTrainerManageUsers.cs</DependentUpon>
     </Compile>
     <Compile Include="PersonalTrainerPanel.cs">
       <SubType>Form</SubType>
@@ -99,8 +129,23 @@
     <Compile Include="Workout_Session.Designer.cs">
       <DependentUpon>Workout_Session.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PersonalTrainerAddExercise.resx">
+      <DependentUpon>PersonalTrainerAddExercise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalTrainerAddUser.resx">
+      <DependentUpon>PersonalTrainerAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalTrainerEditProfile.resx">
+      <DependentUpon>PersonalTrainerEditProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PersonalTrainerLoginPanel.resx">
       <DependentUpon>PersonalTrainerLoginPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalTrainerManageExercises.resx">
+      <DependentUpon>PersonalTrainerManageExercises.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalTrainerManageUsers.resx">
+      <DependentUpon>PersonalTrainerManageUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PersonalTrainerPanel.resx">
       <DependentUpon>PersonalTrainerPanel.cs</DependentUpon>
@@ -150,11 +195,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\main.css" />
+<<<<<<< HEAD
     <Content Include="Images\exercices\exercises.jpg" />
     <None Include="Images\front_page.jpg" />
     <None Include="Images\buttonBack.jpg" />
     <None Include="Images\thumb_Up.png" />
     <None Include="Images\AppBackground.jpg" />
+=======
+    <Content Include="img\exercises-icon.png" />
+    <Content Include="img\ex_barbell_row.jpg" />
+    <Content Include="img\ex_complete.jpg" />
+    <Content Include="img\ex_decline_chest_press.jpg" />
+    <Content Include="img\ex_dumbbell_curls.jpg" />
+    <Content Include="img\ex_dumbbell_rows.jpg" />
+    <Content Include="img\ex_incline_chest_press.jpg" />
+    <Content Include="img\ex_incline_dumbbell_flyes.jpg" />
+    <Content Include="img\ex_jogging.jpg" />
+    <Content Include="img\ex_performance.jpg" />
+    <Content Include="img\ex_plank.jpg" />
+    <Content Include="img\ex_pushups.jpg" />
+    <Content Include="img\ex_walking.jpg" />
+    <Content Include="img\john_d_profile.jpg" />
+    <Content Include="img\logout-icon.png" />
+    <Content Include="img\users-icon.png" />
+    <Content Include="img\workouts-icon.png" />
+>>>>>>> a099d1ee2643a68afef9f302494f52af2d37963e
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

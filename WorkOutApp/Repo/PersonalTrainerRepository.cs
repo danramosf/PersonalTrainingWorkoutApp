@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using WorkOutApp.DataSet1TableAdapters;
 using WorkOutApp.Model;
 
@@ -31,7 +32,17 @@ namespace WorkOutApp.Repo
             {
                 ptrainer.Name = dr["name"].ToString();
                 ptrainer.Address = dr["address"].ToString();
-                ptrainer.ProfilePic = dr["profilePic"].ToString();
+                if (dr["profilePic"].ToString() != null && dr["profilePic"].ToString() != "")
+                {
+                    //Getting the img path
+                    string[] s = { "\\bin" };
+                    string path = Application.StartupPath.Split(s, StringSplitOptions.None)[0];
+                    //MessageBox.Show(path);
+
+                    ptrainer.ProfilePic = path + "\\img\\" + dr["profilePic"].ToString();
+                }
+
+                
                 ptrainer.Email = dr["email"].ToString();
             }
 

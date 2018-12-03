@@ -23,6 +23,7 @@ C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\Pers
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.pdb
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerLoginPanel.resources
 C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerPanel.resources
+<<<<<<< HEAD
 C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\bin\Debug\WorkOutApp.exe.config
 C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\bin\Debug\WorkOutApp.exe
 C:\Users\admin\Desktop\New folder\PersonalTrainingWorkoutApp\WorkOutApp\bin\Debug\WorkOutApp.pdb
@@ -51,3 +52,10 @@ C:\Users\brahi\Desktop\workout app\WorkOutApp\obj\Debug\WorkOutApp.pdb
 C:\Users\brahi\Desktop\workout app\WorkOutApp\bin\Debug\WorkOutApp.exe.config
 C:\Users\brahi\Desktop\workout app\WorkOutApp\bin\Debug\WorkOutApp.exe
 C:\Users\brahi\Desktop\workout app\WorkOutApp\bin\Debug\WorkOutApp.pdb
+=======
+C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerEditProfile.resources
+C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerManageExercises.resources
+C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerAddExercise.resources
+C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerManageUsers.resources
+C:\Users\Dan-Vivi-Kate\Desktop\Dan\Facul\2018\4th Term\Webservices\Projects\PersonalTrainingWorkoutApp\WorkOutApp\obj\Debug\WorkOutApp.PersonalTrainerAddUser.resources
+>>>>>>> a099d1ee2643a68afef9f302494f52af2d37963e
